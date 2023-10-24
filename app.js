@@ -63,3 +63,24 @@ let sd = s > g;
 console.log(typeof sd); // boolean
 console.log(sd);
 
+const projectName = 'Сайт магазина';
+const price = 2000;
+const author = 'Василий Васильев'
+const tamplate = author + ' заказал ' + projectName + ' по цене ' + price;
+console.log(tamplate);
+const tamplate2 = `${author} заказал ${projectName} по цене ${price} $`; // шаблонное выражение ` обратные кавычки
+console.log(tamplate2); 
+const tamplate3 = ` Проект
+Цена ${price}$`;
+console.log(tamplate3)
+
+let number3 = '18';
+console.log(number3 + 5);
+console.log(Number(number3) + 5); // приведение типа 
+console.log(String(9) + 9); // приведение типа 
+
+console.log(Boolean(0)); // false, любое другое true
+console.log(Boolean('')); // false, любая не пустая строка true
+console.log(Boolean(undefined)); // false
+console.log(Boolean(NaN)); // false
+console.log(Boolean(null)); // false
